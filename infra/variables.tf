@@ -23,6 +23,11 @@ variable "instance_type" {
 #   type        = string
 # }
 
+variable "region" {
+  description = "AWS Region"
+  type = string
+}
+
 variable "vpn_vpc" {
   description = "Name of the VPC for the VPN EC2 Instance"
   type        = string
